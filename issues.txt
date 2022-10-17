@@ -1,0 +1,22 @@
+duplicate keys in Numbers.jsx:
+    I was initializing the array with 6 equal values. This is bad if you want to use indexes.
+    It's not the first time I forget index searching functions don't diferentiate equal elements.
+
+non-updating clock:
+    In JS, time data fetching rely on instantiating a Date class. I thought I'd instantiate it
+    once and then worry about updating time values only later.
+    Actually, Date must be instantiaded every new upadate. You can't have Date instantiated
+    outside of a function that defines new values, for example. Date will have to be inside that
+    function's body.
+
+multiple variables in setState:
+    Turns out you can't have it. In class-based components, (this.)state is an object with as many
+    variables as you want. In functions, on the other hand, hooks handles variables separately.
+    Linting shows nothing, though. You can write more than one variable in a "valueless" object,
+    like 
+        const [{var1, var2}, setSomthing] = useState('',0)
+    and nothing will be warned, as if it was correct. Maybe it is syntactycally . It just doesn't
+    do anything.
+
+
+

@@ -1,0 +1,38 @@
+X title 
+X (gerador de aposta...)
+X (gere os números...)
+
+X button
+X - generate all 6
+  - generate based on previously drawn combos (API)
+
+X numbers in containers
+X     - mega sena layout 
+X         - green circles
+X         - white numbers
+X         - two digits (01, 02...)
+X     - can't repeat
+X     - can input all 
+
+X add 
+X    - date
+X    - clock
+
+X next draw (API)
+X - number
+X - date 
+X - amount acumulated 
+
+style
+X - 4 leaf clover picture and such
+- think of trademark (2022 - Heleno Rêgo...)
+
+functionalities:
+- save bets
+- share link with bets
+
+-----------------------------------
+
+later on:
+- interactive sheet
+

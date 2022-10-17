@@ -1,0 +1,60 @@
+.main {
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px rgb(2, 15, 119);
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.compDiv {
+    margin-top: 1%;
+}
+
+.titulo {
+    background: linear-gradient(to bottom, #00d2ff, #3a7bd5);
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block; /*makes div fit to text width*/
+    width: 550px;
+    border-radius: 10px;
+    
+}
+
+.button {
+    background: linear-gradient(to bottom, #00d2ff, #3a7bd5);
+    font-weight: bolder;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 1%;
+    
+}
+
+.numsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    margin-top: 1%;
+}
+
+.numeros {
+    text-align: center;
+    line-height: 100px; /*this centers text vertically*/
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top, #11998e, #12ff6d);
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.clockDate {
+    background: linear-gradient(to bottom, #16222a, #3a6073);
+    border-style: solid;
+    font-size: 12px;
+    border-radius: 10%;
+    display: inline-block;
+}
